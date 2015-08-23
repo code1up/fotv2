@@ -1,0 +1,23 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        "configurable"
+    ],
+    "companyName": "alanjgorton@googlemail.com",
+    "longName": "Football on TV 2",
+    "projectType": "native",
+    "resources": {
+        "media": []
+    },
+    "sdkVersion": "3",
+    "shortName": "FOTV2",
+    "targetPlatforms": [
+        "basalt"
+    ],
+    "uuid": "0a63b748-b1f3-463f-9b47-067e8403fe68",
+    "versionLabel": "1.0",
+    "watchapp": {
+        "hiddenApp": true,
+        "watchface": false
+    }
+}
