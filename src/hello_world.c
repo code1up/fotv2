@@ -3,31 +3,24 @@
 Window *window;
 TextLayer *text_layer;
 
-void handle_init(void) {
-	// Create a window and text layer
-	window = window_create();
+void handle_init(void) {	
+  // Create text layer.
 	text_layer = text_layer_create(GRect(0, 0, 144, 154));
-	
-	// Set the text, font, and text alignment
-	text_layer_set_text(text_layer, "Hi, I'm a Pebble!");
+
+  text_layer_set_text(text_layer, "Configure using the Pebble Watch app on your phone.");
 	text_layer_set_font(text_layer, fonts_get_system_font(FONT_KEY_GOTHIC_28_BOLD));
 	text_layer_set_text_alignment(text_layer, GTextAlignmentCenter);
 	
-	// Add the text layer to the window
+  // Create window.
+	window = window_create();
 	layer_add_child(window_get_root_layer(window), text_layer_get_layer(text_layer));
-
-	// Push the window
+  
+  // Show window.
 	window_stack_push(window, true);
-	
-	// App Logging!
-	APP_LOG(APP_LOG_LEVEL_DEBUG, "Just pushed a window!");
 }
 
 void handle_deinit(void) {
-	// Destroy the text layer
 	text_layer_destroy(text_layer);
-	
-	// Destroy the window
 	window_destroy(window);
 }
 
