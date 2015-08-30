@@ -4,13 +4,13 @@
         "configurable"
     ],
     "companyName": "alanjgorton@googlemail.com",
-    "longName": "Football on TV 2",
+    "shortName": "FOTV",
+    "longName": "Football on TV",
     "projectType": "native",
     "resources": {
         "media": []
     },
     "sdkVersion": "3",
-    "shortName": "FOTV2",
     "targetPlatforms": [
         "basalt"
     ],
