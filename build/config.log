@@ -1,13 +1,13 @@
-# project  configured on Sun Aug 30 11:34:20 2015 by
+# project  configured on Sun Oct 11 10:27:24 2015 by
 # waf 1.7.11 (abi 98, python 2070af0 on darwin)
 # using /usr/local/Cellar/pebble-sdk/3.2/Pebble/waf configure
 #
 ----------------------------------------
 Setting top to
-/Users/alangorton/Projects/pebble/fotv2
+/Users/alangorton/Projects/fotv/fotv2-watchapp
 ----------------------------------------
 Setting out to
-/Users/alangorton/Projects/pebble/fotv2/build
+/Users/alangorton/Projects/fotv/fotv2-watchapp/build
 ----------------------------------------
 Found Pebble SDK for basalt in:
 /usr/local/Cellar/pebble-sdk/3.2/Pebble/basalt

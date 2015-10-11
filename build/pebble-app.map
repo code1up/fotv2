@@ -1174,7 +1174,7 @@ DISCARD
  libm.a(*)
  libgcc.a(*)
  *(.eh_frame)
-OUTPUT(/Users/alangorton/Projects/pebble/fotv2/build/basalt/pebble-app.elf elf32-littlearm)
+OUTPUT(/Users/alangorton/Projects/fotv/fotv2-watchapp/build/basalt/pebble-app.elf elf32-littlearm)
 
 .ARM.attributes
                 0x0000000000000000       0x27
@@ -1224,11 +1224,11 @@ OUTPUT(/Users/alangorton/Projects/pebble/fotv2/build/basalt/pebble-app.elf elf32
  .debug_line    0x0000000000000000      0x143 src/hello_world.c.10.o
  .debug_line    0x0000000000000143      0x12d basalt/appinfo.auto.c.10.o
 
-.debug_str      0x0000000000000000      0x4bf
- .debug_str     0x0000000000000000      0x255 src/hello_world.c.10.o
-                                        0x2a1 (size before relaxing)
- .debug_str     0x0000000000000255      0x26a basalt/appinfo.auto.c.10.o
-                                        0x33c (size before relaxing)
+.debug_str      0x0000000000000000      0x4c6
+ .debug_str     0x0000000000000000      0x25c src/hello_world.c.10.o
+                                        0x2a8 (size before relaxing)
+ .debug_str     0x000000000000025c      0x26a basalt/appinfo.auto.c.10.o
+                                        0x343 (size before relaxing)
 
 .debug_frame    0x0000000000000000       0x60
  .debug_frame   0x0000000000000000       0x60 src/hello_world.c.10.o
